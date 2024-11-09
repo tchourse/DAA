@@ -92,7 +92,8 @@ int main(){
     // Validate the first queen's position
     if(firstQueenColumn >= 0 && firstQueenColumn < n){
         arr[0][firstQueenColumn] = 1;
-        // Start the backtracking algorithm from the second row
+
+        // Check if the initial placement leads to any solution
         if(!nQueen(arr, 1, n)){
             cout << "No solution found after placing the first queen at (0, " << firstQueenColumn << ")." << endl;
         }
