@@ -107,6 +107,26 @@ int main() {
 }
 
 /*
+
+Example output:
+
+Enter the number of characters: 4
+Enter characters and their frequencies:
+Character 1: A
+Frequency of A: 5
+Character 2: B
+Frequency of B: 9
+Character 3: C
+Frequency of C: 12
+Character 4: D
+Frequency of D: 13
+
+Huffman Codes:
+C: 00
+A: 01
+B: 10
+D: 11
+
 Explanation:
 
 - MinHeapNode: Represents a node in the Huffman tree. Each node contains a character, its frequency, and pointers to its left and right child nodes.
